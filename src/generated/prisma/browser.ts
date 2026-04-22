@@ -17,4 +17,28 @@ import * as Prisma from './internal/prismaNamespaceBrowser.ts'
 export { Prisma }
 export * as $Enums from './enums.ts'
 export * from './enums.ts';
-
+/**
+ * Model Plan
+ * 
+ */
+export type Plan = Prisma.PlanModel
+/**
+ * Model User
+ * 
+ */
+export type User = Prisma.UserModel
+/**
+ * Model ShortLink
+ * 
+ */
+export type ShortLink = Prisma.ShortLinkModel
+/**
+ * Model ClickTrack
+ * 
+ */
+export type ClickTrack = Prisma.ClickTrackModel
+/**
+ * Model Report
+ * 
+ */
+export type Report = Prisma.ReportModel
